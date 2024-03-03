@@ -148,7 +148,8 @@ body {
     @media (max-width: 991.98px) {
       .presentation .presentation__overlay {
         top: -300px;
-        padding-bottom: 270px; } }
+        padding-bottom: 270px;
+        bottom: -500px; } }
     @media (min-width: 2000px) {
       .presentation .presentation__overlay {
         padding-bottom: 600px; } }
@@ -200,6 +201,9 @@ body {
   @media (max-width: 330px) {
     .blog {
       min-height: 200vh; } }
+  @media (max-width: 575.98px) {
+    .blog {
+      min-height: 100vh; } }
   .blog .blog__overlay {
     background-image: url(../img/blog-bg.png);
     background-position: top center;
